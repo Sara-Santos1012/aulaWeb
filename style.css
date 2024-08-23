@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+    background-image: url("imagem/fundo.jfif");
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: rgba(52,58, 64, 0.9); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+ }
+ 
+ header h1{
+     margin-bottom: 10px;
+ }
+
+ header nav ul{
+    list-style-type: none;
+    padding: 0;
+ }
+ 
+ header nav ul li{
+    display: inline;
+    margin-right: 15px;
+ }
+
+ header nav ul li a{
+    color: white;
+    text-decoration:  none;
+    font-weight: bold;
+ }
+
+ header nav ul li a:hover{
+    color: rgb(228, 228, 68);
+}
+
+section{
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius:  10px;
+    box-shadow:  0 5px 5px rgba(0, 0, 0, 0.1);
+    opacity: 90%;
+}
+
+#sobre{
+    background-color: #f3f6f7;
+}
+
+#sobre h2{
+    color: #007bff
+}
+
+#sobre p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#servico{
+    background-color: rgba(238, 247, 255, 0.9);
+    border: 3px;
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(1, 93, 146);
+}
+
+#servico ul{
+    list-style-type:  square;
+    padding-left: 20px;
+    color: black;
+}
+
+#servico li{
+    margin-bottom: 10px;
+}
+
+#contato{
+    background-color: rgba(238, 247, 255, 0.9);
+    border: 3px;
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(1, 93, 146);  
+}
+form{
+    background-color: rgba(0, 0, 0, 0.09);
+    margin-top: 20px;
+    padding:  20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+form label{
+    display:block;
+    margin-bottom:  5px;
+    font-weight: bold;
+}
+
+form input, form textarea{
+    width:  100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #808aa1;
+    border-style: 5px;
+}
+
+form button{
+    padding: 10px 20px;
+    background-color: rgb(0, 68, 124);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+form button:hover{
+    background-color: #2647db;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #d8db26;
+}
